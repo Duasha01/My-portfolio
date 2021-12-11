@@ -1,0 +1,126 @@
+body{
+    color: azure; 
+    margin: 0;   
+}
+.main{
+    background-color: #000000;
+    margin-top: 0;
+    background-image: url('images/image3.png');
+    background-size: cover;
+}
+.main .middle-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img{
+    height: 400px;
+    border-radius: 50%;
+}
+.top-container{
+    text-align: center;
+   
+
+}
+.content{
+    margin-top: 100px;
+    
+}
+nav{
+    height: 70px;
+    background-color:#FFAFAF ;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 90px;
+    position: fixed;
+    
+
+}
+nav .text1{
+    /* padding: 20px 22px; */
+    margin: 0;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+    font-style:italic;
+}
+
+p.txt1 {
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    margin:0;
+    padding: 0;
+    display: flex;
+    margin-top: 10px;
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color:red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  li a:hover{
+      background-color: white;
+      border-radius: 6px;
+  }
+section{
+margin-bottom: 0;
+}
+.download{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.download a {
+    color: white;
+    display: block;
+    background-color: #F90716;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    margin-left: 250px;
+
+}
+.info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.name p {
+    font-size: 2opx;
+}
+.education-block{
+    background-color: #54575c;
+    height: 500px;
+   /* background-image: url('images/design1.jpg');
+    background-size: cover;*/
+}
+
+
+
+.copyright{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}
+
+.skills-block{
+    background-color: #71DFE7;
+    height: 500px;
+    color: black;
+    background-image: url('images/image4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    ba
+}
+.image1{
+    border-radius: 50%;
+}
